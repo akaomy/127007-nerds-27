@@ -141,6 +141,28 @@
             </div>
         </section>
     </main>
+    <section class="dialog hidden">
+        <form action="#" method="post">
+            <p class="dialog-title">Напишите нам</p>
+            <ul class="dialog-inputs">
+                <li class="dialog-inputs__item">
+                  <label for="name">Ваше имя:</label>
+                  <input type="text" id="name" name="user_name">
+                </li>
+                <li class="dialog-inputs__item">
+                  <label for="mail">Ваш e-mail::</label>
+                  <input type="email" id="mail" name="user_mail">
+                </li>
+                <li class="dialog-inputs__item">
+                  <label for="msg">Текст письма::</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="dialog-inputs__item">
+                    <button type="submit">Отправить</button>
+                </li>
+            </ul>
+        </form>
+    </section>
     <footer class="social">
         <ul class="social-list">
           <li class="social-list__item">vk</li>
