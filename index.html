@@ -2,12 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav class="navigation-main">
         <a href="#" class="navigation-logo"> 
           <img src="img/nerds-logo.svg" alt="nerds logo">
         </a>
@@ -41,7 +43,7 @@
         <img class="hero-image" src="img/slide-picture3.jpg" alt="hero image">  
       </section>
     </header>
-    <main> 
+    <main class="container"> 
       <section class="services">
         <ul class="services-list">
           <li class="services-list__item">
@@ -64,24 +66,28 @@
           </li>
         </ul>
       </section>
-      <section class="about">
-        <h3 class="about-header header3">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
-        <p class="about-description">Исповедуем принципы минимализма и чистоты. Ставим математически</p>
-        <h3 class="about-header header4">Выполняем заказы на разработку:</h3>
-        <ul class="about-list">
-          <li class="about-list__item">Веб-сайтов любой сложности</li>
-          <li class="about-list__item">Мобильных приложений для iOS и Android</li>
-          <li class="about-list__item">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
+      <div class="index-colimns">
+        <section class="about-info">
+          <h3 class="about-header header3">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
+          <p class="about-description">Исповедуем принципы минимализма и чистоты. Ставим математически</p>
+          <h3 class="about-header header4">Выполняем заказы на разработку:</h3>
+          <ul class="about-list">
+            <li class="about-list__item">Веб-сайтов любой сложности</li>
+            <li class="about-list__item">Мобильных приложений для iOS и Android</li>
+            <li class="about-list__item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </section>
 
-        <img class="about-image" src="img/nerds-picture.jpg" alt="midsize nerds logo">
-        <h3>с 2004 года Любим точность во всем:</h3>
-        <ul class="about-persentagelist">
-          <li class="about-persentagelist__item"><span>146%</span>Уровень самоотдачи</li>
-          <li class="about-persentagelist__item"><span>100%</span>Соблюдение сроков</li>
-          <li class="about-persentagelist__item"><span>50%</span>Минимальная предоплата</li>
-        </ul>
-      </section>
+        <section class="about-branding">
+          <img class="about-image" src="img/nerds-picture.jpg" alt="midsize nerds logo">
+          <h3>с 2004 года Любим точность во всем:</h3>
+          <ul class="about-persentagelist">
+            <li class="about-persentagelist__item"><span>146%</span>Уровень самоотдачи</li>
+            <li class="about-persentagelist__item"><span>100%</span>Соблюдение сроков</li>
+            <li class="about-persentagelist__item"><span>50%</span>Минимальная предоплата</li>
+          </ul>
+        </section>
+      </div>
       <section class="brands">
         <H3>Hidden heading</H3>
         <hr/>
