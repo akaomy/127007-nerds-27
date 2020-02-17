@@ -50,6 +50,56 @@ a {
     border-bottom: 2px solid #fb565a;
 }
 
+.header1 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header3 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.header4 {
+    font-size: 18px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.about-list__item {
+    line-height: 45px;
+}
+
+.about-persentagelist {
+    display: flex;
+}
+
+.about-list__red-label {
+    border-bottom: 2px solid red;
+    padding-right: 25px;
+    margin-right: 20px;
+}
+
+.about-persentagelist__item {
+    max-width: 89px;
+    margin: 20px;
+}
+
+.about-persentagelist__persentage {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about-persentagelist__text {
+    line-height: 18px;
+    padding-top: 30px;
+}
+
 .services-list h2 {
     font-size: 24px;
     text-transform: uppercase;
