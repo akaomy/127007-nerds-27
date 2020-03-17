@@ -8,7 +8,7 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="navigation-main">
         <a href="#" class="navigation-logo"> 
           <img src="img/nerds-logo.svg" alt="nerds logo">
@@ -20,7 +20,7 @@
           <li class="navigation-list__item"><a href="#">Контакты</a></li>
         </ul>
         <div class="navigation-cart">
-          <img class="navigation-cart__icon" src="img/cart-icon.svg" alt="cart icon">
+          <img class="navigation-cart__icon" src="img/cart-icon.png" alt="cart icon">
           <button class="navigation-cart__button">Корзина</button>
         </div>
       </nav>
@@ -28,7 +28,7 @@
         <h1 class="hero-header header1">Долго, дорого, скрупулезно.</h1>
         <p class="hero-slogan">Математически выверенный дизайн для вашего сайта или мобильного</p>
         <button class="hero-cta-btn">Узнать больше</button>
-        <img class="hero-image" src="img/slide-picture.jpg" alt="hero image">  
+        <img class="hero-image" src="img/slide-picture.png" alt="hero image">  
       </section>
       <section class="hero hidden">
         <h1 class="hero-header header1">Любим математику как никто другой.</h1>
@@ -40,7 +40,7 @@
         <h1 class="hero-header header1">Только ночь, только хардкор.</h1>
         <p class="hero-slogan">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
         <button class="hero-cta-btn">Узнать больше</button>
-        <img class="hero-image" src="img/slide-picture3.jpg" alt="hero image">  
+        <img class="hero-image" src="img/slide-picture3.png" alt="hero image">  
       </section>
     </header>
     <main class="container"> 
@@ -123,9 +123,21 @@
     </main>
     <footer class="social">
       <ul class="social-list">
-        <li class="social-list__item"><img src="img/vk-icon.svg" alt="vk icon"></li>
-        <li class="social-list__item"><img src="img/fb-icon.svg" alt="fb icon"></li>
-        <li class="social-list__item"><img src="img/insta-icon.svg" alt=""></li>
+        <li class="social-list__item">
+          <span class="grey-circle">
+            <img id="vk-icon" src="img/vk-icon.svg" alt="vk icon">
+          </span>
+        </li>
+        <li class="social-list__item">
+          <span class="grey-circle">
+              <img id="fb-icon" src="img/fb-icon.svg" alt="fb icon">
+          </span>
+        </li>
+        <li class="social-list__item">
+          <span class="grey-circle">
+            <img id="insta-icon" src="img/insta-icon.svg" alt="insta icon">
+          </span>
+        </li>
       </ul>
       <h3 class="social-slogan">Давайте дружить, это выгодно!</h3>
       <p class="social-subslogan">Скидка 10% для друзей из социальных сетей.</p>
