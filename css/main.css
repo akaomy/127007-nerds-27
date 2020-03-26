@@ -12,6 +12,10 @@ body {
     display: none;
 }
 
+.hero-slogan, .services-list__description {
+    color: #283136;
+}
+
 a {
     text-decoration: none;
 }
@@ -76,8 +80,14 @@ ul li {
     background-color: #eeeeee;
 }
 
-button {
+.btn-common {
     text-transform: uppercase;
+    width: 240px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #fb565a;
 }
 
 .navigation-list a {
@@ -149,6 +159,22 @@ button {
     padding-top: 30px;
 }
 
+.services-list {
+    display: flex;
+    line-height: 24px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.services-list__item {
+    margin-top: 70px;
+}
+
+.services-list__text-content {
+    width: 239px;
+    min-height: 150px;
+}
+
 .services-list h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -157,9 +183,16 @@ button {
     text-align: left;
 }
 
-.services-list {
-    line-height: 24px;
-    text-align: left;
+.services-list__cta-btn {
+    width: 160px;
+}
+
+.services-list__cta-btn .green{
+    background-color: #00ca74;
+}
+
+.services-list__cta-btn .yellow{
+    background-color: #efc84a;
 }
 
 .grey-circle {
