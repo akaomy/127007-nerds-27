@@ -24,10 +24,21 @@ ul li {
     font-size: 16px;
     line-height: 30px;
     color: black;
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 50px;
 }
 
 .header {
     background-color: #eeeeee;
+    min-height: 650px;
+}
+
+.hero {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .navigation-list,
@@ -39,12 +50,39 @@ ul li {
 .products-list,
 .products-pagination__list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+}
+
+.navigation-list {
+    padding-left: 202px;
+    padding-right: 90px;
+    margin-top: 25px;
+}
+
+.navigation-list__item {
+    padding-right: 42px;
+}
+
+.navigation-cart {
+    padding-left: 100px;
+    margin-top: 25px;
+}
+
+.navigation-cart__icon {
+    padding-right: 15px;
+}
+
+.navigation-cart button {
+    border: none;
+    background-color: #eeeeee;
+}
+
+button {
+    text-transform: uppercase;
 }
 
 .navigation-list a {
     color: black;
+    text-transform: uppercase;
 }
 
 .navigation-list a:hover {
@@ -61,6 +99,7 @@ ul li {
 }
 
 .header1 {
+    font-weight: 500;
     font-size: 55px;
     line-height: 55px;
 }
